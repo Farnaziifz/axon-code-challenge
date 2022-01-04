@@ -17,7 +17,7 @@ const routes = [
 		path: '/',
 		name: '/layout',
 		redirect: '/chat',
-		component: () => import('@/layout/index.vue'),
+		component: () => import('@/layouts/index.vue'),
 		children: [
 			{
 				path: '/chat',

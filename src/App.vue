@@ -1,20 +1,24 @@
 <template>
-	<div id="app">salam</div>
+	<div id="app">
+		<router-view />
+		<NotifyContainer />
+	</div>
 </template>
 
 <script>
+import NotifyContainer from '@/components/Notify/NotifyContainer';
+
 export default {
 	name: 'App',
+	components: {
+		NotifyContainer,
+	},
 };
 </script>
 
 <style>
 #app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
+	height: 100vh;
+	width: 100%;
 }
 </style>
