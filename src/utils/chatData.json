@@ -3,30 +3,33 @@
 		"id": 1,
 		"name": "Saba Moradi",
 		"imgUrl": "user1",
-		"date": "12:42"
+		"chats": [
+			{ "id": 1, "type": "receive", "text": "salam chetori?" },
+			{ "id": 2, "type": "sent", "text": "khobam to chetori?" }
+		]
 	},
 	{
 		"id": 2,
 		"name": "Arvin Ladan",
-		"imgUrl": "abroGhashang",
+		"imgUrl": "user1",
 		"date": "13:32"
 	},
 	{
 		"id": 3,
 		"name": "Farnaz Farzipour",
-		"imgUrl": "jadi",
+		"imgUrl": "user1",
 		"date": "09:32"
 	},
 	{
 		"id": 4,
 		"name": "Mofid moghimi",
-		"imgUrl": "Leira",
+		"imgUrl": "user1",
 		"date": "02:32"
 	},
 	{
 		"id": 5,
 		"name": "Amir Kalantari",
-		"imgUrl": "joon",
+		"imgUrl": "user1",
 		"date": "12:32"
 	},
 	{

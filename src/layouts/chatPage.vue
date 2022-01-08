@@ -1,5 +1,8 @@
 <template>
-	<div class="axn-chat-page"></div>
+	<div class="axn-chat-page">
+		<p>salam</p>
+		<router-view />
+	</div>
 </template>
 
 <style lang="scss" scoped>

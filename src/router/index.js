@@ -20,7 +20,7 @@ const routes = [
 		component: () => import('@/layouts/index.vue'),
 		children: [
 			{
-				path: '/chat',
+				path: '/chat/:id?',
 				name: 'chat',
 				meta: {
 					title: 'Chat',

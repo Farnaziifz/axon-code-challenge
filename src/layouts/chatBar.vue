@@ -1,7 +1,12 @@
 <template>
 	<div class="axn-chat-bar-container">
 		<div class="axn-item-container">
-			<ChatItem v-for="item in ChatList" :key="item.id" :chatData="item" />
+			<ChatItem
+				v-for="item in ChatList"
+				:key="item.id"
+				:chatData="item"
+				@click.native="goToSingle(item.id)"
+			/>
 		</div>
 	</div>
 </template>
@@ -13,6 +18,16 @@ export default {
 	},
 	components: {
 		ChatItem,
+	},
+	methods: {
+		goToSingle(id) {
+			this.$router.push({
+				name: 'chat',
+				params: {
+					id: id,
+				},
+			});
+		},
 	},
 };
 </script>
